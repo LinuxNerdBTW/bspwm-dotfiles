@@ -75,9 +75,9 @@ If your package manager did not found the polybar on its official repo you can b
    * `sudo cp -r fonts/* /usr/share/fonts/`
 * `sudo cp -r bin/* /usr/bin` -> Copying Contents of `bin` directory to `/usr/bin`
 * `sudo cp -r archlabs /usr/lib` -> Copying `archlabs` directory to `/usr/lib/`
-*  `cp -r rofi-collection ~/` -> Copying `rofi-collection` directory to your home direcotry 
-* `cp -r polybar-themes ~/` -> Copying `polybar-themes` directory to your home directory 
 
 <b>Now you can safely login to your newly created desktop environment <b> 😃 
+<b> You are ready to go but if you want to do your further customization then you can follow this 👇🏻👇🏻👇🏻 </b>
+   
 
 ### Compositor Customizatiion [Picom / Compton ] for blurring , rounded corner and shadow effect 😎😎
