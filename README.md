@@ -19,6 +19,8 @@ I have used random themes on the internet and customized according to my require
 ### Show Case Video 👇🏻👇🏻
 ---
 <iframe width="745" height="400" src="https://www.youtube.com/embed/vDOyB-MoHI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/vDOyB-MoHI8/sddefault.jpg)](https://youtu.be/vDOyB-MoHI8)
+
 ---
 # Installation 💻
 
@@ -40,41 +42,42 @@ You need to install all these on to your distro from official repository for thi
 * lxpolkit -> light weight policy kit manager 
 * thunar -> GUI FILE Manager 
 * GDM / SDDM / lightdm / lxdm -> choose according to your need [ Display managers which helps you to login to your desktop like kde, gnome, mate, xfce, bspwm, openbox etc...]
-[ Note Dont install Display Managers if you have already installed ,or if you are building your own desktop from scratch you need this ]
+* [ Note Dont install Display Managers if you have already installed ,or if you are building your own desktop from scratch you need this ]
 ---
 
 # Initial Setup 
 This is very important step for new bie , please follow this guide line properly :( if you did not you will gonna hate me for no reason 😥
 I recommend you to do this .
 For doing this configuration you need a seperate user for this configuration only . This will be best for you 👍
-1 ) `sudo useradd -m -s /usr/bin/bash test` -> Creating user `test` [ change username according to your desire user and shell according to your choices ]
-2 ) `sudo passwd test` -> Changing password of user `test`
-3 ) `sudo gpasswd -a test sudo` -> Adding user `test` to `sudo` group
-4 ) `su test ` -> login to user test from terminal 
+* `sudo useradd -m -s /usr/bin/bash test` -> Creating user `test` [ change username according to your desire user and shell according to your choices ]
+* `sudo passwd test` -> Changing password of user `test`
+* `sudo gpasswd -a test sudo` -> Adding user `test` to `sudo` group
+* `su test ` -> login to user test from terminal 
 and then lets begin the following steps 👇🏻👇🏻
 ## Installation of all dependencies 
 If your package manager did not found the polybar on its official repo you can build it from source from here 👇🏻
 <https://github.com/polybar/polybar>
 
-1 )`sudo apt install bspwm polybar rofi dunst mpd ncmpcpp ranger kitty compton fish zsh nitrogen lxappearance lxpolkit thunar`
-2 )`git clone https://github.com/TheLinuxGuy001/bspwm-dotfiles ~/Downloads/bspwm-dotfiles`
-3 )`cd bspwm-dotfiles` -> change directory to bspwm-dotfiles
-4 )`sudo cp -r backgrounds/* /usr/share/backgrounds/` -> Copying Contents of  `backgrounds` directory to `/usr/share/backgrounds/`
-5 )`sudo cp -r themes/*  /usr/share/themes/`-> Copying Contents of `themes` directory to `/usr/share/themes/` 
-6 )`sudo cp -r icons/* /usr/share/icons` -> Copying Contents of `icons` directory to `/usr/share/icons/`
-7 )`cp -rv .config .Xresources.d .Xresources -t ~/` -> Copying `.Xresources.d .Xresources `to your home directory .
-8 ) You need to install some fonts in order to work things better : 
-* Fira mono for powerline
-* Cascadia code
-* iosevka nerd font
-* Dejavu sans
-* Source code pro
-* There is a `fonts` directory copy the contents of that folder to `/usr/share/fonts/`
-* `sudo cp -r fonts/* /usr/share/fonts/`
-9 ) `sudo cp -r bin/* /usr/bin` -> Copying Contents of `bin` directory to `/usr/bin`
-10 ) `sudo cp -r archlabs /usr/lib` -> Copying `archlabs` directory to `/usr/lib/`
-11 ) `cp -r rofi-collection ~/` -> Copying `rofi-collection` directory to your home direcotry 
-12 ) `cp -r polybar-themes ~/` -> Copying `polybar-themes` directory to your home directory 
+* `sudo apt install bspwm polybar rofi dunst mpd ncmpcpp ranger kitty compton fish zsh nitrogen lxappearance lxpolkit thunar`
+* `git clone https://github.com/TheLinuxGuy001/bspwm-dotfiles ~/Downloads/bspwm-dotfiles`
+* `cd bspwm-dotfiles` -> change directory to bspwm-dotfiles
+* `sudo cp -r backgrounds/* /usr/share/backgrounds/` -> Copying Contents of  `backgrounds` directory to `/usr/share/backgrounds/`
+* `sudo cp -r themes/*  /usr/share/themes/`-> Copying Contents of `themes` directory to `/usr/share/themes/` 
+* `sudo cp -r icons/* /usr/share/icons` -> Copying Contents of `icons` directory to `/usr/share/icons/`
+* `cp -rv .config .Xresources.d .Xresources -t ~/` -> Copying `.Xresources.d .Xresources `to your home directory .
+*  You need to install some fonts in order to work things better : 
+   * Fira mono for powerline
+   * Cascadia code
+   * iosevka nerd font
+   * Dejavu sans
+   * Source code pro
+   * There is a `fonts` directory copy the contents of that folder to `/usr/share/fonts/`
+   * `sudo cp -r fonts/* /usr/share/fonts/`
+* `sudo cp -r bin/* /usr/bin` -> Copying Contents of `bin` directory to `/usr/bin`
+* `sudo cp -r archlabs /usr/lib` -> Copying `archlabs` directory to `/usr/lib/`
+*  `cp -r rofi-collection ~/` -> Copying `rofi-collection` directory to your home direcotry 
+* `cp -r polybar-themes ~/` -> Copying `polybar-themes` directory to your home directory 
+
 <b>Now you can safely login to your newly created desktop environment <b> 😃 
 
 ### Compositor Customizatiion [Picom / Compton ] for blurring , rounded corner and shadow effect 😎😎
