@@ -19,7 +19,7 @@ I have used random themes on the internet and customized according to my require
 ### Show Case Video 👇🏻👇🏻
 ---
 
-[![Watch the video](https://img.youtube.com/vi/vDOyB-MoHI8/default.jpg)](https://youtu.be/vDOyB-MoHI8)
+[![Watch the video](https://img.youtube.com/vi/vDOyB-MoHI8/hqdefault.jpg)](https://youtu.be/vDOyB-MoHI8)
 
 ---
 # Installation 💻
