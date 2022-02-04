@@ -80,4 +80,26 @@ If your package manager did not found the polybar on its official repo you can b
 <b> You are ready to go but if you want to do your further customization then you can follow this 👇🏻👇🏻👇🏻 </b>
    
 
+### BSPWM Configuration files 
+BSPWM Main Configuration Directory `.config/bspwm` under this directory you will find alots of configuration files for bspwm 
+
+### Startup apps configuration and daemons on BSPWM 
+Edit : `.config/bspwm/bspwmrc` 
+
+### Changing key bindings in BSPWM 
+<b> Edit `.config/bspwm/sxhkd/sxhkdrc` with your favorite text editor , you can find some binaries like bsptem , bspcomp used in sxhkdrc file -> these are located in `.config/bspwm/bin` directory you and edit this executable according to your requirements .
+
 ### Compositor Customizatiion [Picom / Compton ] for blurring , rounded corner and shadow effect 😎😎
+
+Rounded Corner and Blur effect is not available on default installation of picom  compositor so that's why we need to install picom of jona burg fork .. 
+Go to the repository below and install it or build it from source , its easy to install it on debian based distro .. 
+
+<https://github.com/jonaburg/picom.git>
+
+After installation no need to configure there is already a configuratiion file exists on `.config/picom/picom.conf` if you have glone my repo .. and you will get blured , rounded corner window automatically .. you can edit this file to change the corner radius , opacity and blur strength etc .. 
+
+
+<b> This Configuratiion is the fork of archcraft dotfiles and many other themes and configuration files ... </b>
+archcraft dot files here 👇🏼
+<https://github.com/shreyasl10/Dotfiles>
+
