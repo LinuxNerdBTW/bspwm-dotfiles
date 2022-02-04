@@ -58,7 +58,7 @@ and then lets begin the following steps 👇🏻👇🏻
 If your package manager did not found the polybar on its official repo you can build it from source from here 👇🏻
 <https://github.com/polybar/polybar>
 
-* `sudo apt install bspwm polybar rofi dunst mpd ncmpcpp ranger kitty compton fish zsh nitrogen lxappearance lxpolkit thunar`
+* `sudo apt install bspwm polybar rofi dunst mpd ncmpcpp ranger kitty compton fish zsh nitrogen lxappearance lxpolkit thunar sxhkd`
 * `git clone https://github.com/TheLinuxGuy001/bspwm-dotfiles ~/Downloads/bspwm-dotfiles`
 * `cd bspwm-dotfiles` -> change directory to bspwm-dotfiles
 * `sudo cp -r backgrounds/* /usr/share/backgrounds/` -> Copying Contents of  `backgrounds` directory to `/usr/share/backgrounds/`
