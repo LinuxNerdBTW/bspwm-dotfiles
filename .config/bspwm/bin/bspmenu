@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+bash /home/thelinuxguy/.config/polybar/blocks/scripts/launcher.sh

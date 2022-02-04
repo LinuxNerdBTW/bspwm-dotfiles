@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Terminate if compton is already running
+killall picom
+
+# Wait until the processes have been shut down
+while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
+
+# Launch compton
+#compton --config ~/.config/bspwm/compton.conf &
+picom --experimental-backends

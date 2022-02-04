@@ -1,0 +1,118 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {
+	font:							"Iosevka Nerd Font 10";
+    show-icons:                     true;
+	icon-theme: 					"Papirus";
+    display-drun: 					"";
+    drun-display-format:            "{name}";
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+@import "colors.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               @al;
+    text-color:                     @fg;
+	border:							0px 0px 0px 0px;
+	border-color:					@ac;
+    border-radius:                  0px;
+	width:							450px;
+    height:                         720px;
+    location:                       south west;
+    x-offset:                       10;
+    y-offset:                       -10;
+}
+
+prompt {
+    enabled: 						true;
+	padding: 						0px;
+	background-color: 				@al;
+	text-color: 					@ac;
+	font:							"feather 12";
+}
+
+entry {
+    background-color:               @al;
+    text-color:                     @text-color;
+    placeholder-color:              @text-color;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Search...";
+	padding: 						0px 0px 0px 5px;
+    blink:                          true;
+}
+
+inputbar {
+	children: 						[ prompt, entry ];
+    background-color:               @al;
+    text-color:                     @text-color;
+    expand:                         false;
+	border:							0px 0px 1px 0px;
+    border-radius:                  0px;
+	border-color:					@se;
+    margin:                         0px;
+    padding:                        10px;
+}
+
+listview {
+    background-color:               @al;
+    padding:                        0px;
+    columns:                        1;
+    lines:                          6;
+    spacing:                        5px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @al;
+	border:							0px;
+    border-radius:                  0px;
+	border-color:					@ac;
+    children:                       [ inputbar, listview ];
+    spacing:                       	5px;
+    padding:                        5px;
+}
+
+element {
+    background-color:               @al;
+    text-color:                     @fg;
+    orientation:                    horizontal;
+    border-radius:                  0px;
+	padding: 						8px;
+}
+
+element-icon {
+    size:                           24px;
+    border:                         0px;
+    background-color:               @al;
+}
+
+element-text {
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0.5;
+    margin:                         0px 2.5px 0px 2.5px;
+    background-color:               @al;
+}
+
+element selected {
+    background-color:               @al;
+    text-color:                     @text-color;
+	border:							1px 1px 1px 1px;
+    border-radius:                  4px;
+    border-color:                  	@text-color;
+}
