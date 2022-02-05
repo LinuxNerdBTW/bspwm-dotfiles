@@ -54,6 +54,7 @@ For doing this configuration you need a seperate user for this configuration onl
 * `sudo gpasswd -a test sudo` -> Adding user `test` to `sudo` group
 * `su test ` -> login to user test from terminal 
 and then lets begin the following steps 👇🏻👇🏻
+---
 ## Installation of all dependencies 
 If your package manager did not found the polybar on its official repo you can build it from source from here 👇🏻
 <https://github.com/polybar/polybar>
@@ -79,16 +80,16 @@ If your package manager did not found the polybar on its official repo you can b
 <b>Now you can safely login to your newly created desktop environment <b> 😃 
 <b> You are ready to go but if you want to do your further customization then you can follow this 👇🏻👇🏻👇🏻 </b>
    
-
+---
 ### BSPWM Configuration files 
 BSPWM Main Configuration Directory `.config/bspwm` under this directory you will find alots of configuration files for bspwm 
 
 ### Startup apps configuration and daemons on BSPWM 
 Edit : `.config/bspwm/bspwmrc` 
-
+---
 ### Changing key bindings in BSPWM 
 <b> Edit `.config/bspwm/sxhkd/sxhkdrc` with your favorite text editor , you can find some binaries like bsptem , bspcomp used in sxhkdrc file -> these are located in `.config/bspwm/bin` directory you and edit this executable according to your requirements .
-
+---
 ### Compositor Customizatiion [Picom / Compton ] for blurring , rounded corner and shadow effect 😎😎
 
 Rounded Corner and Blur effect is not available on default installation of picom  compositor so that's why we need to install picom of jona burg fork .. 
@@ -104,11 +105,20 @@ After installation no need to configure there is already a configuratiion file e
       * For installing ohmyzsh : go to this link and install it 👉 https://ohmyz.sh/
    * Fish shell -> ohmyfish 
       * For installing ohmyfish : go to this link and install it 👉 https://github.com/oh-my-fish/oh-my-fish
+   ---
+ ### Shell Color Scripts 
+   <b> Its optional and its for better looks and cool appearance of your linux shell ... </b>
+   head over to this link and install it .... from DT repo .. 
+   Installation instruction are provided there 
+   👉 https://gitlab.com/dwt1/shell-color-scripts
+   ![Screenshot](ss/44.png)
+   ![Screenshot](ss/45.png)
+   ![Screenshot](ss/46.png)
    
-   
-   
+   ---
 
 <b> This Configuratiion is the fork of archcraft dotfiles and many other themes and configuration files ... </b>
 archcraft dot files here 👇🏼
 <https://github.com/shreyasl10/Dotfiles>
 
+   ---
