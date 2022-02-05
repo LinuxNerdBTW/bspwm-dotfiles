@@ -97,7 +97,16 @@ Go to the repository below and install it or build it from source , its easy to 
 <https://github.com/jonaburg/picom.git>
 
 After installation no need to configure there is already a configuratiion file exists on `.config/picom/picom.conf` if you have glone my repo .. and you will get blured , rounded corner window automatically .. you can edit this file to change the corner radius , opacity and blur strength etc .. 
-
+### Shell Customization 
+   * Bash shell -> Starship Prompt 
+      * For installing starship prompt : go to this link and install it 👉 https://starship.rs/
+   * Zsh shell -> ohmyzsh 
+      * For installing ohmyzsh : go to this link and install it 👉 https://ohmyz.sh/
+   * Fish shell -> ohmyfish 
+      * For installing ohmyfish : go to this link and install it 👉 https://github.com/oh-my-fish/oh-my-fish
+   
+   
+   
 
 <b> This Configuratiion is the fork of archcraft dotfiles and many other themes and configuration files ... </b>
 archcraft dot files here 👇🏼
