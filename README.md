@@ -1,4 +1,4 @@
-## Dotfiles for BSPWM window manager by Mangal Lopchan AKA TheLinuxGuy
+<p align="center"> ~Dotfiles for BSPWM~ </p
 #### Feedback are appreciated .... 
 ---
 I have used random themes on the internet and customized according to my requirements . I like the things to be blurred and transparent and here is my setup ... I have configured everyting transparent and blured .. It tooks me almost a week to get everything ready And i have done this setup on my kali machine .
